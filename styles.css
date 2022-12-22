@@ -1,2 +1,15 @@
-
-/* Your CSS Code here. */
+.flex-container {
+    display: flex;
+    height: 200px;
+    align-content: space-evenly;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    background-color: green;
+    padding: 10px;
+  }
+.flex-container > div {
+    background-color: blueviolet;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
